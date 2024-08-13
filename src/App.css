@@ -1,0 +1,107 @@
+.MainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.btn {
+    max-width: fit-content;
+}
+.arrayBars{
+    margin-top: 5%;
+    display: flex;
+    gap: 0.2%;
+    align-items: end;
+    height: 450px;
+}
+/* 
+    green =>#039c69
+    red =>C63C51
+    original=>8C3061
+*/
+.bar {
+    background-color: #8C3061;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.heading{
+    background: transparent;
+    font-size: 2.7rem;
+    border: 0;
+    font-weight: 600;
+    margin-right: 4%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+    color:darkviolet;
+}
+
+.navBar {
+    display: flex;
+    position: absolute;
+    top: 0;
+    gap: 1rem;
+    justify-content: end;
+    background-color: #5D0E41;
+    width: 100%;
+    padding: 2% 0;
+}
+.range{
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.rangeTxt{
+    white-space: nowrap;
+    margin: 0  1%;
+    background: transparent;
+    border: 0;
+    font-size: 1.1rem;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+    font-weight: 600;
+    color:rgb(196, 89, 89);
+}
+
+.btn {
+    white-space: nowrap;
+    margin: 0  1%;
+    background: transparent;
+    border: 0;
+    font-size: 1.2rem;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+    font-weight: 600;
+    color:rgb(196, 89, 89);
+}
+input[type="range"]{
+    -webkit-appearance:none;
+    width:160px;
+    height:20px;
+    margin:10px 50px;
+    background: linear-gradient(to right, #490d2f 0%, #490d2f 100%);
+    background-size:150px 10px;
+    background-position:center;
+    background-repeat:no-repeat;
+    overflow:hidden;
+    outline: none;
+  }
+  
+ 
+  
+  input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance:none;
+    width:20px;
+    height:20px;
+    background:#981284;
+    position:relative;
+    z-index:3;
+    box-shadow:0 0 5px 0 rgba(0, 0, 0, 0.616);
+  }
+  
